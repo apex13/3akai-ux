@@ -428,65 +428,202 @@ define(
          * @return {Void}
          */
         loadMeData : function(callback) {
-            // Get the service url from the config file
-            var data_url = sakai_conf.URL.ME_SERVICE;
-            // Start a request to the service
-            $.ajax({
-                url: data_url,
-                cache: false,
-                success: function(data) {
-                    sakaiUserAPI.data.me = sakai_serv.convertObjectToArray(data, null, null);
-
-                    // Check for firstName and lastName property - if not present use "rep:userId" for both (admin for example)
-                    if (sakaiUserAPI.getProfileBasicElementValue(sakaiUserAPI.data.me.profile, "firstName") === "") {
-                        sakaiUserAPI.setProfileBasicElementValue(sakaiUserAPI.data.me.profile, "firstName", sakaiUserAPI.data.me.profile["rep:userId"]);
-                    }
-                    if (sakaiUserAPI.getProfileBasicElementValue(sakaiUserAPI.data.me.profile, "lastName") === "") {
-                        sakaiUserAPI.setProfileBasicElementValue(sakaiUserAPI.data.me.profile, "lastName", sakaiUserAPI.data.me.profile["rep:userId"]);
-                    }
-
-                    // SAKIII-2419 server isn't saving basic access param
-                    if (sakaiUserAPI.data.me.profile.basic.access === undefined){
-                        sakaiUserAPI.data.me.profile.basic.access = "everybody";
-                    }
-
-                    if (sakaiUserAPI.data.me.user.properties) {
-                        if (sakaiUserAPI.data.me.user.properties.isAutoTagging) {
-                            if (sakaiUserAPI.data.me.user.properties.isAutoTagging === "true") {
-                                sakaiUserAPI.data.me.user.properties.isAutoTagging = true;
-                            } else if (sakaiUserAPI.data.me.user.properties.isAutoTagging === "false") {
-                                sakaiUserAPI.data.me.user.properties.isAutoTagging = false;
-                            }
+            data = {
+                "user": {
+                    "userid": "dean",
+                    "userStoragePrefix": "~dean/",
+                    "userProfilePath": "/~dean/public/authprofile",
+                    "superUser": false,
+                    "properties": {
+                        "lastName": "angerer",
+                        "lastModified": 1336842889731,
+                        "locale": "en_US",
+                        "contentCount": 5,
+                        "contactsCount": 0,
+                        "principals": "c-lUe5wjySqi-managers",
+                        "type": "u",
+                        "countLastUpdate": 1336845954906,
+                        "timezone": "America/New_York",
+                        "createdBy": "admin",
+                        "email": "test@user2.com",
+                        "created": 1336842889726,
+                        "name": "dean",
+                        "lastModifiedBy": "admin",
+                        "firstName": "dean",
+                        "membershipsCount": 0
+                    },
+                    "subjects": [
+                        "c-lUe5wjySqi-managers",
+                        "c-lUe5wjySqi"
+                    ],
+                    "locale": {
+                        "country": "US",
+                        "displayCountry": "United States",
+                        "displayLanguage": "English",
+                        "displayName": "English (United States)",
+                        "displayVariant": "",
+                        "ISO3Country": "USA",
+                        "ISO3Language": "eng",
+                        "language": "en",
+                        "variant": "",
+                        "timezone": {
+                            "name": "America/New_York",
+                            "GMT": -4
                         }
-                        if (sakaiUserAPI.data.me.user.properties.sendTagMsg) {
-                            if (sakaiUserAPI.data.me.user.properties.sendTagMsg === "true") {
-                                sakaiUserAPI.data.me.user.properties.sendTagMsg = true;
-                            } else if (sakaiUserAPI.data.me.user.properties.sendTagMsg === "false") {
-                                sakaiUserAPI.data.me.user.properties.sendTagMsg = false;
-                            }
-                        }
-                    }
-
-                    // Call callback function if set
-                    if ($.isFunction(callback)) {
-                        callback(true, sakaiUserAPI.data.me);
                     }
                 },
-                error: function(xhr, textStatus, thrownError) {
-
-                    // Log error
-                    debug.error("sakai.api.User.loadMeData: Could not load logged in user data from the me service!");
-
-                    if (xhr.status === 500 && window.location.pathname !== "/dev/500.html" && window.location.pathname !== "/500") {
-                        document.location = "/500";
+                "eventbus": "http://localhost:8080/system/uievent/default?token=ZGVhbjsxMzc1NzhkZjdhYztkZWZhdWx0OzQ5OGlDMnBLVTIzejVUQVBVbVI5Q2EyTGdUVT0&server=7908-dean-PC&user=dean",
+                "profile": {
+                    "hash": "dean",
+                    "basic": {
+                        "access": "everybody",
+                        "elements": {
+                            "lastName": {
+                                "value": "angerer"
+                            },
+                            "email": {
+                                "value": "test@user2.com"
+                            },
+                            "firstName": {
+                                "value": "dean"
+                            }
+                        }
+                    },
+                    "rep:userId": "dean",
+                    "userid": "dean",
+                    "counts": {
+                        "contentCount": 5,
+                        "countLastUpdate": 1336845954906,
+                        "contactsCount": 0,
+                        "membershipsCount": 0
+                    },
+                    "sakai:excludeSearch": false,
+                    "homePath": "/~dean"
+                },
+                "messages": {
+                    "unread": 0
+                },
+                "contacts": {
+                    "accepted": 0,
+                    "pending": 0,
+                    "invited": 0
+                },
+                "groups": [
+                    {
+                        "sakai:group-description": null,
+                        "sakai:category": "collection",
+                        "sakai:group-title": null,
+                        "lastModified": 1336845666238,
+                        "sakai:group-joinable": "yes",
+                        "sakai:role-title-plural": "MANAGERS",
+                        "homePath": "/~c-lUe5wjySqi-managers",
+                        "sakai:group-id": "c-lUe5wjySqi-managers",
+                        "sakai:parent-group-id": "c-lUe5wjySqi",
+                        "createdBy": "admin",
+                        "basic": {
+                            "access": "everybody",
+                            "elements": {
+                                "lastName": {
+                                    "value": "unknown"
+                                },
+                                "email": {
+                                    "value": "unknown"
+                                },
+                                "firstName": {
+                                    "value": "unknown"
+                                }
+                            }
+                        },
+                        "created": 1336845665248,
+                        "sakai:pseudoGroup": true,
+                        "sakai:role-title": "MANAGER",
+                        "lastModifiedBy": "dean",
+                        "sakai:parent-group-title": "Break Me",
+                        "counts": {
+                            "contentCount": 2,
+                            "countLastUpdate": 1336845686532,
+                            "membersCount": 1
+                        },
+                        "groupid": "c-lUe5wjySqi-managers",
+                        "sakai:excludeSearch": "true"
+                    },
+                    {
+                        "sakai:group-description": null,
+                        "sakai:category": "collection",
+                        "sakai:group-title": "Break Me",
+                        "lastModified": 1336845666320,
+                        "sakai:group-joinable": "yes",
+                        "sakai:role-title-plural": null,
+                        "homePath": "/~c-lUe5wjySqi",
+                        "sakai:group-id": "c-lUe5wjySqi",
+                        "sakai:parent-group-id": null,
+                        "createdBy": "admin",
+                        "basic": {
+                            "access": "everybody",
+                            "elements": {
+                                "lastName": {
+                                    "value": "unknown"
+                                },
+                                "email": {
+                                    "value": "unknown"
+                                },
+                                "firstName": {
+                                    "value": "unknown"
+                                }
+                            }
+                        },
+                        "created": 1336845665710,
+                        "sakai:pseudoGroup": false,
+                        "sakai:role-title": null,
+                        "lastModifiedBy": "dean",
+                        "sakai:parent-group-title": null,
+                        "counts": {
+                            "contentCount": 2,
+                            "countLastUpdate": 1337203465454,
+                            "membersCount": 1
+                        },
+                        "groupid": "c-lUe5wjySqi",
+                        "sakai:excludeSearch": "true"
                     }
+                ]
 
-                    // Call callback function if set
-                    if ($.isFunction(callback)) {
-                        callback(false, xhr);
+            };
+            sakaiUserAPI.data.me = sakai_serv.convertObjectToArray(data, null, null);
+
+            // Check for firstName and lastName property - if not present use "rep:userId" for both (admin for example)
+            if (sakaiUserAPI.getProfileBasicElementValue(sakaiUserAPI.data.me.profile, "firstName") === "") {
+                sakaiUserAPI.setProfileBasicElementValue(sakaiUserAPI.data.me.profile, "firstName", sakaiUserAPI.data.me.profile["rep:userId"]);
+            }
+            if (sakaiUserAPI.getProfileBasicElementValue(sakaiUserAPI.data.me.profile, "lastName") === "") {
+                sakaiUserAPI.setProfileBasicElementValue(sakaiUserAPI.data.me.profile, "lastName", sakaiUserAPI.data.me.profile["rep:userId"]);
+            }
+
+            // SAKIII-2419 server isn't saving basic access param
+            if (sakaiUserAPI.data.me.profile.basic.access === undefined){
+                sakaiUserAPI.data.me.profile.basic.access = "everybody";
+            }
+
+            if (sakaiUserAPI.data.me.user.properties) {
+                if (sakaiUserAPI.data.me.user.properties.isAutoTagging) {
+                    if (sakaiUserAPI.data.me.user.properties.isAutoTagging === "true") {
+                        sakaiUserAPI.data.me.user.properties.isAutoTagging = true;
+                    } else if (sakaiUserAPI.data.me.user.properties.isAutoTagging === "false") {
+                        sakaiUserAPI.data.me.user.properties.isAutoTagging = false;
                     }
                 }
-            });
+                if (sakaiUserAPI.data.me.user.properties.sendTagMsg) {
+                    if (sakaiUserAPI.data.me.user.properties.sendTagMsg === "true") {
+                        sakaiUserAPI.data.me.user.properties.sendTagMsg = true;
+                    } else if (sakaiUserAPI.data.me.user.properties.sendTagMsg === "false") {
+                        sakaiUserAPI.data.me.user.properties.sendTagMsg = false;
+                    }
+                }
+            }
+
+            // Call callback function if set
+            if ($.isFunction(callback)) {
+                callback(true, sakaiUserAPI.data.me);
+            }
         },
 
         /**
