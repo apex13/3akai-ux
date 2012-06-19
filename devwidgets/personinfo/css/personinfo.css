@@ -69,7 +69,7 @@
     float: right
 }
 #personinfo_close {
-    background: url(/dev/images/tour_sprite.png) no-repeat scroll -389px -79px transparent;
+    background: url(/dev/images/arrow_right_sm2_blue.png) no-repeat scroll -389px -79px transparent;
     height: 16px;
     width: 16px;
 }

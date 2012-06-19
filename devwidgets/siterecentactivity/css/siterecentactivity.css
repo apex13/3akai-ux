@@ -29,5 +29,5 @@
 .siterecentactivity .siterecentactivity_empty{color:#666;}
 
 /* BOTTOM */
-.siterecentactivity .si_bottom{background:url(/dev/images/dashboard_sprite.png) no-repeat scroll right -1453px transparent;height:5px;padding:0 0 0 10px;}
-.siterecentactivity .si_bottom_inner{background:url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -1433px transparent;height:5px;}
+.siterecentactivity .si_bottom{background:url(/dev/images/tab_button_bg.png) no-repeat scroll right -1453px transparent;height:5px;padding:0 0 0 10px;}
+.siterecentactivity .si_bottom_inner{background:url(/dev/images/topBar_tl.png) no-repeat scroll -10px -1433px transparent;height:5px;}

@@ -103,14 +103,14 @@ blockquote {
 	background-color: #FFF;
 }
 .s3d-header .fixed-container .decor_left {
-	background: url("/dev/images/dashboard_sprite.png") no-repeat scroll left -10px transparent;
+	background: url("/dev/images/dropdown_bottom_left.png") no-repeat scroll left -10px transparent;
 	float: left;
 	height: 5px;
 	margin-left: -20px;
 	width: 5px;
 }
 .s3d-header .fixed-container .decor {
-	background: url("/dev/images/dashboard_sprite.png") no-repeat scroll right -10px transparent;
+	background: url("/dev/images/dropdown_bottom_right.png") no-repeat scroll right -10px transparent;
 	height: 5px;
 	margin-right: -20px;
 }
@@ -584,7 +584,7 @@ a:hover {
 	color: #39C;
 	font-size: 13px;
 	font-weight: bold;
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll left -21px transparent;
+	background: url(/dev/images/arrow_down.png) no-repeat scroll left -21px transparent;
 	float: left;
 	width: 16px;
 	height: 16px;
@@ -1136,12 +1136,12 @@ a.s3d-button.s3d-overlay-button {
  * WIDGET LAYOUT
  */
 .s3d-widget-titlebar {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -473px transparent;
+	background: url(/dev/images/edit_icon_widget.png) no-repeat scroll right -473px transparent;
 	padding: 0 10px 0 0;
 	min-height: 49px;
 }
 .s3d-widget-titlebar-inner {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -570px transparent;
+	background: url(/dev/images/gradient_button_bg.png) no-repeat scroll -10px -570px transparent;
 	padding: 0 0 0 5px;
 	min-height: 50px;
 }
@@ -1152,7 +1152,7 @@ a.s3d-button.s3d-overlay-button {
 	border-right: 3px solid #D4DADE;
 }
 .s3d-widget .s3d-widget-options-footer-left {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -70px -436px #D5DBDF;
+	background: url(/dev/images/gray_button_left.png) no-repeat scroll -70px -436px #D5DBDF;
 	height: 12px;
 }
 .s3d-widget-small-content {
@@ -1162,29 +1162,29 @@ a.s3d-button.s3d-overlay-button {
 	margin-bottom: 7px;
 }
 .fl-widget .fl-widget-options-footer-top {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -528px #D5DBDF;
+	background: url(/dev/images/gray_button_right.png) no-repeat scroll -10px -528px #D5DBDF;
 	height: 16px;
 }
 .fl-widget .fl-widget-options .fl-widget-options-top-right {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -432px transparent;
+	background: url(/dev/images/group_avatar_badge_blue_left_128.png) no-repeat scroll right -432px transparent;
 	float: right;
 	height: 16px;
 	padding: 0 0 7px 14px;
 	width: 16px;
 }
 .s3d-widget .s3d-widget-options-footer-right {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -456px #D5DBDF;
+	background: url(/dev/images/group_avatar_badge_blue_right_128.png) no-repeat scroll right -456px #D5DBDF;
 	float: right;
 	height: 12px;
 	width: 16px;
 }
 .s3d-widget .s3d-widget-no-options, .s3d-no-options {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -1453px transparent;
+	background: url(/dev/images/group_avatar_badge_orange_left_128.png) no-repeat scroll right -1453px transparent;
 	padding: 0 5px 0 0;
 	margin: 0;
 }
 .s3d-widget .s3d-widget-no-options-inner, .s3d-no-options-inner {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -1433px transparent;
+	background: url(/dev/images/group_avatar_badge_orange_right_128.png) no-repeat scroll -10px -1433px transparent;
 	margin: 0;
 	height: 6px;
 }
@@ -1459,7 +1459,7 @@ a.s3d-button.s3d-overlay-button {
  * CONTENT LAYOUT
  */
 .s3d-header .s3d-fixed-container .s3d-decor-left {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll 0 -10px transparent;
+	background: url(/dev/images/header_r.png) no-repeat scroll 0 -10px transparent;
 	float: left;
 	height: 5px;
 	margin-left: -20px;
@@ -1467,7 +1467,7 @@ a.s3d-button.s3d-overlay-button {
 	width: 5px;
 }
 .s3d-header .s3d-fixed-container .s3d-decor {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -10px transparent;
+	background: url(/dev/images/highlight_area_background_bl.png) no-repeat scroll right -10px transparent;
 	float: right;
 	height: 5px;
 	margin-right: -20px;
@@ -1533,7 +1533,7 @@ a.s3d-action-seeall {
 }
 .s3d-search-button .s3d-button-icon-right {
 	padding-right: 22px;
-	background-image: url(/dev/images/dashboard_sprite.png);
+	background-image: url(/dev/images/highlight_area_background_br.png);
 	background-position: 42px -394px;
 	display: inline;
 }
@@ -1578,7 +1578,7 @@ input[type=text], input[type=password], input[type=email], input[type=url], text
  * CONTENT AREA TOP TABS
  */
 .s3d-primary-tabs {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -1622px transparent;
+	background: url(/dev/images/highlight_area_background_darker1_bl.png) no-repeat scroll right -1622px transparent;
 }
 .s3d-primary-tabs, .s3d-primary-tabs-inner {
 	height: 25px;
@@ -1591,7 +1591,7 @@ input[type=text], input[type=password], input[type=email], input[type=url], text
 	padding: 0;
 	margin: 0;
 	float: right;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll left -1592px transparent;
+	background: url(/dev/images/highlight_area_background_darker1_br.png) no-repeat scroll left -1592px transparent;
 	padding-left: 20px;
 }
 .s3d-primary-tabs .fl-tabs-right li {
@@ -1625,7 +1625,7 @@ input[type=text], input[type=password], input[type=email], input[type=url], text
 }
 .s3d-primary-tabs ul li.fl-tabs-active, .s3d-primary-tabs ul li.fl-tabs-active a {
 	background-color: #FFF;
-	background-image: url(/dev/images/dashboard_sprite.png);
+	background-image: url(/dev/images/highlight_area_background_darker1_tl.png);
 	background-attachment: scroll;
 	height: 30px;
 	bottom: 0 !important;
@@ -1708,11 +1708,11 @@ ul.as-selections textarea.as-input {
 
 /* Dialog header */
 .dialog_header {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -641px transparent;
+	background: url(/dev/images/highlight_area_background_darker1_white_content_bl.png) no-repeat scroll right -641px transparent;
 	padding: 0 8px 0 0;
 }
 .dialog_header_inner {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -819px transparent;
+	background: url(/dev/images/highlight_area_background_darker1_white_content_br.png) no-repeat scroll -10px -819px transparent;
 }
 .dialog_header h1 {
 	color: #fff;
@@ -1722,7 +1722,7 @@ ul.as-selections textarea.as-input {
 	padding: 15px 20px;
 }
 .dialog_header .dialog_close_image {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -40px -641px transparent;
+	background: url(/dev/images/highlight_area_background_darker1_white_content_editable_bl.png) no-repeat scroll -40px -641px transparent;
 	cursor: pointer;
 	display: block;
 	height: 15px;
@@ -1763,27 +1763,27 @@ ul.as-selections textarea.as-input {
 
 /* Dialog footer */
 .dialog_footer {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -957px transparent;
+	background: url(/dev/images/highlight_area_background_darker1_white_content_editable_br.png) no-repeat scroll right -957px transparent;
 	padding: 0 8px 0 0;
 }
 .dialog_footer_inner {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -937px transparent;
+	background: url(/dev/images/highlight_area_background_darker1_white_content_editable_tl.png) no-repeat scroll -10px -937px transparent;
 	height: 6px;
 }
 
 /* Dialog tooltip header */
 .dialog_tooltip_header_arrow {
-	background: url(/dev/images/tour_sprite.png) no-repeat scroll -254px -76px transparent;
+	background: url(/dev/images/topBar_tr.png) no-repeat scroll -254px -76px transparent;
 	height: 18px;
 	margin: 0 0 0 20px;
 	width: 35px;
 }
 .dialog_tooltip_header {
-	background: url(/dev/images/tour_sprite.png) no-repeat scroll right -20px transparent;
+	background: url(/dev/images/topnav_hover_bg.gif) no-repeat scroll right -20px transparent;
 	padding: 0 22px 0 0;
 }
 .dialog_tooltip_header_inner {
-	background: url(/dev/images/tour_sprite.png) no-repeat scroll left top transparent;
+	background: url(/dev/images/webchuck/block_bl.png) no-repeat scroll left top transparent;
 	height: 14px;
 }
 
@@ -1792,7 +1792,7 @@ ul.as-selections textarea.as-input {
 	float: right;
 }
 .dialog_tooltip_content {
-	background: url(/dev/images/tour_sprite.png) no-repeat scroll left -80px transparent;
+	background: url(/dev/images/webchuck/block_br.png) no-repeat scroll left -80px transparent;
 	padding: 7px 20px 0;
 }
 .dialog_tooltip_content h2 {
@@ -1812,15 +1812,15 @@ ul.as-selections textarea.as-input {
 
 /* Dialog tooltip footer */
 .dialog_tooltip_footer {
-	background: url(/dev/images/tour_sprite.png) no-repeat scroll right -60px transparent;
+	background: url(/dev/images/webchuck/block_title_bg.png) no-repeat scroll right -60px transparent;
 	padding: 0 22px 0 0;
 }
 .dialog_tooltip_footer_inner {
-	background: url(/dev/images/tour_sprite.png) no-repeat scroll left -40px transparent;
+	background: url(/dev/images/webchuck/block_tl.png) no-repeat scroll left -40px transparent;
 	height: 14px;
 }
 .dialog_tooltip_footer_arrow {
-	background: url(/dev/images/tour_sprite.png) no-repeat scroll -217px -80px transparent;
+	background: url(/dev/images/webchuck/block_tr.png) no-repeat scroll -217px -80px transparent;
 	width: 35px;
 	height: 18px;
 	margin: 0 0 0 20px;
@@ -1938,7 +1938,7 @@ ul li.s3d-list-item:hover {
 	font-size: 11px;
 }
 .s3d-dropdownlistone-text .dropdownlistone_arrow {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -149px -394px transparent;
+	background: url(/dev/images/highlight_area_background_darker1_white_content_editable_tr.png) no-repeat scroll -149px -394px transparent;
 	padding-right: 17px;
 	padding-left: 8px;
 }
@@ -1984,14 +1984,14 @@ ul li.s3d-list-item:hover {
 	float: left;
 }
 .s3d-dropdownlisttwo-text .s3d-dropdownlisttwo-arrow-down {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -128px -400px transparent;
+	background: url(/dev/images/highlight_area_background_darker1_white_content_tl.png) no-repeat scroll -128px -400px transparent;
 	float: left;
 	height: 10px;
 	margin: 6px 0 0 6px;
 	width: 10px;
 }
 .s3d-dropdownlisttwo-text .s3d-dropdownlisttwo-arrow-up {
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -218px -400px transparent;
+	background: url(/dev/images/highlight_area_background_tl.png) no-repeat scroll -218px -400px transparent;
 	float: left;
 	height: 10px;
 	margin: 6px 0 0 6px;
@@ -2095,46 +2095,46 @@ ul li.s3d-list-item:hover {
 .s3d-highlight_area_background_tl {
 	height: 7px;
 	margin-left: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -1037px transparent;
+	background: url(/dev/images/highlight_area_background_tr.png) no-repeat scroll -10px -1037px transparent;
 }
 .s3d-highlight_area_background_tinner {
 	height: 7px;
 	margin-right: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -1047px transparent;
+	background: url(/dev/images/highlight_area_background_white_content_bl.png) no-repeat scroll right -1047px transparent;
 }
 .s3d-highlight_area_background_bl {
 	clear: both;
 	height: 7px;
 	margin-left: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -1057px transparent;
+	background: url(/dev/images/highlight_area_background_white_content_br.png) no-repeat scroll -10px -1057px transparent;
 }
 .s3d-highlight_area_background_binner {
 	clear: both;
 	height: 7px;
 	margin-right: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -1067px transparent;
+	background: url(/dev/images/highlight_area_background_white_content_tl.png) no-repeat scroll right -1067px transparent;
 }
 .s3d-highlight_area_background_white_content_tl {
 	height: 7px;
 	margin-left: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -1198px transparent;
+	background: url(/dev/images/highlight_area_background_white_content_tr.png) no-repeat scroll -10px -1198px transparent;
 }
 .s3d-highlight_area_background_white_content_tinner {
 	height: 7px;
 	margin-right: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -1208px transparent;
+	background: url(/dev/images/icon-search-white.png) no-repeat scroll right -1208px transparent;
 }
 .s3d-highlight_area_background_white_content_bl {
 	clear: both;
 	height: 7px;
 	margin-left: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -1217px transparent;
+	background: url(/dev/images/inbox_table_bottom.png) no-repeat scroll -10px -1217px transparent;
 }
 .s3d-highlight_area_background_white_content_binner {
 	clear: both;
 	height: 7px;
 	margin-right: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -1227px transparent;
+	background: url(/dev/images/inbox_table_top.png) no-repeat scroll right -1227px transparent;
 }
 .s3d-highlight_area_background_darker1 {
 	background-color: #d5dbdf;
@@ -2144,44 +2144,44 @@ ul li.s3d-list-item:hover {
 .s3d-highlight_area_background_darker1_tl {
 	height: 7px;
 	margin-left: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -1077px transparent;
+	background: url(/dev/images/leftCol_br.png) no-repeat scroll -10px -1077px transparent;
 }
 .s3d-highlight_area_background_darker1_tinner {
 	height: 7px;
 	margin-right: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -1087px transparent;
+	background: url(/dev/images/leftCol_tl.png) no-repeat scroll right -1087px transparent;
 }
 .s3d-highlight_area_background_darker1_bl {
 	height: 7px;
 	margin-left: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -1097px transparent;
+	background: url(/dev/images/leftCol_tr.png) no-repeat scroll -10px -1097px transparent;
 }
 .s3d-highlight_area_background_darker1_binner {
 	height: 7px;
 	margin-right: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -1107px transparent;
+	background: url(/dev/images/light_gray_soft_square_button.png) no-repeat scroll right -1107px transparent;
 }
 .s3d-highlight_area_background_darker1_white_content_tl {
 	height: 7px;
 	margin-left: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -1117px transparent;
+	background: url(/dev/images/login-box.png) no-repeat scroll -10px -1117px transparent;
 }
 .s3d-highlight_area_background_darker1_white_content_tinner {
 	height: 7px;
 	margin-right: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -1127px transparent;
+	background: url(/dev/images/message_arrow.gif) no-repeat scroll right -1127px transparent;
 }
 .s3d-highlight_area_background_darker1_white_content_bl {
 	clear: both;
 	height: 7px;
 	margin-left: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -1137px transparent;
+	background: url(/dev/images/pager-left.png) no-repeat scroll -10px -1137px transparent;
 }
 .s3d-highlight_area_background_darker1_white_content_binner {
 	clear: both;
 	height: 7px;
 	margin-right: -10px;
-	background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -1147px transparent;
+	background: url(/dev/images/pager-right.png) no-repeat scroll right -1147px transparent;
 }
 
 /*
@@ -2691,55 +2691,55 @@ ul li.s3d-list-item:hover {
 	height: 128px;
 }
 .icon-audio-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -958px 0 transparent;
+	background: url(/dev/images/arrow_down_grey.png) no-repeat scroll -958px 0 transparent;
 }
 .icon-doc-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -112px 0 transparent;
+	background: url(/dev/images/arrow_down_inbox.png) no-repeat scroll -112px 0 transparent;
 }
 .icon-pdf-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -750px 0 transparent;
+	background: url(/dev/images/arrow_down_sm2.png) no-repeat scroll -750px 0 transparent;
 }
 .icon-pps-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -463px 0 transparent;
+	background: url(/dev/images/arrow_left_sm2_blue.gif) no-repeat scroll -463px 0 transparent;
 }
 .icon-swf-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -1040px 0 transparent;
+	background: url(/dev/images/arrow_right_sm2_blue.png) no-repeat scroll -1040px 0 transparent;
 }
 .icon-zip-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -1056px 0 transparent;
+	background: url(/dev/images/arrow_up.png) no-repeat scroll -1056px 0 transparent;
 }
 .icon-spreadsheet-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -560px 0 transparent;
+	background: url(/dev/images/arrow_up_inbox.png) no-repeat scroll -560px 0 transparent;
 }
 .icon-txt-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -1086px 0 transparent;
+	background: url(/dev/images/arrow_up_sm2.png) no-repeat scroll -1086px 0 transparent;
 }
 .icon-image-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -320px 0 transparent;
+	background: url(/dev/images/block_bl.png) no-repeat scroll -320px 0 transparent;
 }
 .icon-html-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -302px 0 transparent;
+	background: url(/dev/images/block_footer_bl.png) no-repeat scroll -302px 0 transparent;
 }
 .icon-video-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -1118px 0 transparent;
+	background: url(/dev/images/block_footer_br.png) no-repeat scroll -1118px 0 transparent;
 }
 .icon-sound-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -622px 0 transparent;
+	background: url(/dev/images/block_tl.png) no-repeat scroll -622px 0 transparent;
 }
 .icon-kmultiple-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -430px 0 transparent;
+	background: url(/dev/images/block_tr.png) no-repeat scroll -430px 0 transparent;
 }
 .icon-url-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -304px 0 transparent;
+	background: url(/dev/images/body_bg2.png) no-repeat scroll -304px 0 transparent;
 }
 .icon-sakaidoc-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -1185px 0 transparent;
+	background: url(/dev/images/bullet_green.png) no-repeat scroll -1185px 0 transparent;
 }
 .icon-unknown-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -143px 0 transparent;
+	background: url(/dev/images/bullet_orange.png) no-repeat scroll -143px 0 transparent;
 }
 .icon-collection-sprite {
-	background: url(/dev/images/icons_sprite.png) no-repeat scroll -430px 0 transparent;
+	background: url(/dev/images/bullet_red.png) no-repeat scroll -430px 0 transparent;
 }
 
 /*

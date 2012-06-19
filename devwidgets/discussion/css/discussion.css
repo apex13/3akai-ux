@@ -81,10 +81,10 @@
     float: left;
 }
 .discussion_show_replies_icon {
-    background: url("/dev/images/icons_sprite.png") no-repeat scroll -24px -21px transparent;
+    background: url("/dev/images/dialog_tooltip_arrowright.png") no-repeat scroll -24px -21px transparent;
 }
 .discussion_hide_replies_icon {
-    background: url("/dev/images/icons_sprite.png") no-repeat scroll -745px -21px transparent;
+    background: url("/dev/images/dialog_tooltip_arrowup.png") no-repeat scroll -745px -21px transparent;
 }
 .discussion_entity_container {
     margin-bottom: 10px;
