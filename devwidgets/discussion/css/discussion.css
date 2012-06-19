@@ -173,12 +173,12 @@
 
 /* Tabs */
 #discussion_tab_content_top {
-    background: url(/dev/images/dashboard_sprite.png) no-repeat scroll right -1567px transparent;
+    background: url(/dev/images/content_tr_flip.png) no-repeat scroll transparent;
     margin: 0;
     padding: 0 5px 0 0;
 }
 #discussion_tab_content_top_inner {
-    background: url(/dev/images/dashboard_sprite.png) no-repeat scroll -10px -1393px transparent;
+    background: url(/dev/images/content_tl.gif) no-repeat scroll transparent;
     height: 6px;
     margin: 0;
 }
