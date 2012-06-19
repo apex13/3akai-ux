@@ -35,4 +35,4 @@ p.mycontent_error_msg{padding-left:15px;}
 p.mycontent_item_meta{font-size:.9em;color:#444;}
 
 /* Widget icon */
-.mycontent.fl-widget .fl-widget-titlebar .widget_title_icon{background:url(/dev/images/content_tr_flip.png) no-repeat scroll -620px -21px transparent;}
+.mycontent.fl-widget .fl-widget-titlebar .widget_title_icon{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA4oAAAAGBAMAAAB3OX31AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhQTFRF3+To9PX3+Pn77e3t6Ozv5ens////19zfT0KlHwAAADRJREFUSMdjKB8FQxywiqUxjIbCkAcFaqOxOAwAG0PaKBjiQKW8cDQWhz4wLxiNxaEP0ssB5TmTivbbVDQAAAAASUVORK5CYII=) no-repeat scroll -620px -21px transparent;}

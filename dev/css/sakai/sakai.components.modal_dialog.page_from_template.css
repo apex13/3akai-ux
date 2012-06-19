@@ -22,4 +22,4 @@
 .template_list a{width:80%;}
 .template_list span.menu_title{display:block;font-weight:bold;font-size:1.1em;color:#333;padding-bottom:3px;}
 .template_list span.description{display:block;font-weight:lighter;font-size:.95em;color:#666;}
-.template_list a.delete{position:relative;right:20px;top:0;width:12px;height:12px;cursor:pointer;background-image:url(/dev/images/close_icon_small.png);}
+.template_list a.delete{position:relative;right:20px;top:0;width:12px;height:12px;cursor:pointer;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMAgMAAAArG7R0AAAACVBMVEXd3d2ZmZnMzMx6OJvfAAAAK0lEQVQIHWNYtWoVQwMDE0MjgxNDk2MTQ0MoE0PDNCAG0iA+SBwkD8JAtQAygQxZlGj4pwAAAABJRU5ErkJggg==);}

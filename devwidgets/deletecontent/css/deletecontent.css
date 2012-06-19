@@ -42,7 +42,7 @@
 }
 
 .deletecontent_hybrid_container {
-    background: url(/devwidgets/deletecontent/images/gradient.png) repeat-x;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAB+CAIAAABqA+zKAAAABGdBTUEAANbY1E9YMgAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAB0SURBVHjapJDRDcAgCEThjG7h/js4HJQoWmNI2qYfF0DvIZhaa6i1opSCnHNXSglEZBITPCcw88qj+pukR1X+4RePsHN9xT97b9/Kza/r3v9DRg/liMfRa8zNShsjG4Pg/ckpeK8PZu7Se/PBBnP4/pcAAwBiJjCkRVxQ9wAAAABJRU5ErkJggg==) repeat-x;
     background-color: #e7e7e7;
     border-radius: 5px;
 }

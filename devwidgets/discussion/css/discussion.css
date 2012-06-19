@@ -81,10 +81,10 @@
     float: left;
 }
 .discussion_show_replies_icon {
-    background: url("/dev/images/dialog_tooltip_arrowright.png") no-repeat scroll -24px -21px transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAmCAYAAAAbdcG0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfbAQUCKzdz2hPGAAAA5ElEQVRIS+3USw6CMBCA4YEzCBE8rPGk0gfowj7wBKajNhRomRKXds33004KcO3YBXauchyf0DG+K1C6l1o7AmMiO4DYLWMtMJ4X8BgDxgLnkryDALuANoYcWOCcwCr2AZE+QhRjQBsQoo/OIIldQGkdDWxiH5DLHZAwBpQGKYfgCGTsAg+lgkAW9oH+vYNs7FBRFHils3FVHeDUNudsPIVZeA7JuJ5s9fsJk7CD7eeMU7iJUzCJt2AUU+AqpsIFrusqOpz5sAKMsDnizaEuvJ57IL5guN3Jv1rqjv7P/Sfwmwm8ALeSYJZn/43XAAAAAElFTkSuQmCC) no-repeat scroll -24px -21px transparent;
 }
 .discussion_hide_replies_icon {
-    background: url("/dev/images/dialog_tooltip_arrowup.png") no-repeat scroll -745px -21px transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAPCAYAAACInr1QAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAAd0SU1FB9sBBQE2E7LzJVIAAACmSURBVEjH5dRLDsIgFIXhczcgL0fKw50S9mrBUBfhwNA4UJsSgSb+85N8owP8Y1NM4TrFULOllqh5vgMAjkpB65MfDntFlbbiqAeqpJSE0WffHRZjCvkDasFJCWPWcdQTtQVHvVElKQWs0b4ZrAa14ISAte9xNAq1hqORqG+4KlhMt5Dz/NObEYLDWeOrYS1QC45zOPfE0V5QJc4ZLs562hOqxNgBD57dYJIK1MZjAAAAAElFTkSuQmCC) no-repeat scroll -745px -21px transparent;
 }
 .discussion_entity_container {
     margin-bottom: 10px;
@@ -173,12 +173,12 @@
 
 /* Tabs */
 #discussion_tab_content_top {
-    background: url(/dev/images/content_tr_flip.png) no-repeat scroll transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA4oAAAAGBAMAAAB3OX31AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhQTFRF3+To9PX3+Pn77e3t6Ozv5ens////19zfT0KlHwAAADRJREFUSMdjKB8FQxywiqUxjIbCkAcFaqOxOAwAG0PaKBjiQKW8cDQWhz4wLxiNxaEP0ssB5TmTivbbVDQAAAAASUVORK5CYII=) no-repeat scroll transparent;
     margin: 0;
     padding: 0 5px 0 0;
 }
 #discussion_tab_content_top_inner {
-    background: url(/dev/images/content_tl.gif) no-repeat scroll transparent;
+    background: url(data:image/gif;base64,R0lGODlhigMGALMAANfc3/j5+9/k6O3t7f///+Xp7N7e5vT19+js7wAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAHAP8ALAAAAACKAwYAAASQkMhTBLg46827/2AojmRpnmiqrmzrvnAsz3Rt33iu73zv84SA5UcsGo/IpHLJbDqf0Kh02iQMqdisdsvter/gsHgsPWAQAYl6zW673/C4fE6v2+/4vH7P7/v/gIGCg4SFhoeIiYqLjI2Oj5CPQwORlZaXmJmam5ydnp+goaKjpJ4Ypaipqqusra6vsLGys6QRADs=) no-repeat scroll transparent;
     height: 6px;
     margin: 0;
 }

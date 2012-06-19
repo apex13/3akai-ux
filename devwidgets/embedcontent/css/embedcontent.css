@@ -36,9 +36,9 @@
 #embedcontent_tabs .s3d-primary-tabs .fl-tabs{height:26px;}
 #embedcontent_tab_content_container{margin-top:37px;}
 #embedcontent_tab_content{border-right:3px solid #D4DADE;border-left:3px solid #D4DADE;padding:20px 20px 10px;}
-#embedcontent_settings .content_top{background:url(/dev/images/search_results_br.png) no-repeat scroll right -1413px transparent;padding:0 5px 0 0;margin:0;}
-#embedcontent_settings .content_top.content_top_rounded{background:url(/dev/images/search_results_tr.png) no-repeat scroll right -1413px transparent;padding:0 5px 0 0;margin:0;}
-#embedcontent_settings .content_top_inner{background:url(/dev/images/search_tab_bg.png) no-repeat scroll left -1958px transparent;margin:0;height:6px;}
+#embedcontent_settings .content_top{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADBAMAAACkBqiMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABJQTFRF9/n68vT29/j58PL0////7/L0HrJqbAAAABFJREFUCB1jCDVgCFVgEHAAAAaKAUsyRUosAAAAAElFTkSuQmCC) no-repeat scroll right -1413px transparent;padding:0 5px 0 0;margin:0;}
+#embedcontent_settings .content_top.content_top_rounded{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADBAMAAACkBqiMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABJQTFRF9/n68vT29/j58PL0////7/L0HrJqbAAAABFJREFUCB1jMHJgCGVgCBUAAAW8AS3ilb4YAAAAAElFTkSuQmCC) no-repeat scroll right -1413px transparent;padding:0 5px 0 0;margin:0;}
+#embedcontent_settings .content_top_inner{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZ8AAAAcCAMAAACJb0JkAAAAA3NCSVQICAjb4U/gAAAAZlBMVEX////+/v7///39/v/8/f/7/P76+/34+fvt8fTs8PPr7/Ls7e/g5Ofe4+ff4+bd4uXd4eTc4OPa3+Pb3+LX3ODV3eDW29/W297U3N/W2+HX297V3N/V29/V2t7V2t3W2t3U297T295f3+GsAAAACXBIWXMAAAsSAAALEgHS3X78AAAAGHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3NPsx9OAAAAFnRFWHRDcmVhdGlvbiBUaW1lADA3LzAyLzA5CK+pwQAAAJNJREFUGBntwckKwkAARMEOA+678hDNoPn/nxTNwQ08xj50lSTN1ocD4WY5KaWojPeXO8LOatSo2dVagfoD8R/bonnXIwxNteGhe7p+ad8RQ1no1Dt+OL9qn4hBiV79hfgXEc5EOBPhTIQzEc5EOBPhTIQzEc5EOBPhTIQzEc5EOBPhTIQzEc5EONMxPPEgwpkIZzdCYe0IhZy47wAAAABJRU5ErkJggg==) no-repeat scroll left -1958px transparent;margin:0;height:6px;}
 
 /* Display settings */
 #embedcontent_settings .s3d-highlight_area_background{padding:10px;}

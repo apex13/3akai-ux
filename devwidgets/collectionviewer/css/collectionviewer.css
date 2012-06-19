@@ -69,13 +69,13 @@
     margin-left: 10px;
 }
 .collectionviewer_widget .s3d-button.collectionviewer_comments_button .collectionviewer_comments_icon {
-    background: url("/devwidgets/collectionviewer/images/collectionviewer_comments_icon.png") no-repeat top left transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQ9JREFUeNpi/P//PwO1ARMDDQBNDGUBEbNmzTIAUvVALECheYVpaWkXwIb++/cPZGAAFRzZD8SOMEMFqO79v3//IosdyM3NdSTWgMmTJ69H9yUTzFAkfJAUVwHVX0TWj8ulDCQaSpT3qWPonz9/yDYUm15shvJTxVA0LyTU19dfbGxsXAATAPIVQOI4zM3H5dIPSGKgNBsPxGBDq6urC0jNbTBDG4EUyDUGMIny8nIQez6yGAFwAZRNQQxG5KKvpKQExvmAxWUgiyf09PR8IMqlWJKHAJoLEvv7+y+Q5H0caQ7kosZJkyZNICvvYzF0Ayh8pk6d+oDsAgUGgKUVyLCF06dP30BJKcVIizoKIMAAqkSJtwK29SMAAAAASUVORK5CYII=) no-repeat top left transparent;
     width: 21px;
     height: 21px;
     float: right;
 }
 .collectionviewer_widget .s3d-button.collectionviewer_comments_button:hover .collectionviewer_comments_icon {
-    background: url("/devwidgets/collectionviewer/images/collectionviewer_comments_icon_hover.png") no-repeat top left transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARZJREFUeNpi/P//PwO1AePQMlRwwQMDILseiAUoNK/wfYLCBRYQi4mREWRgABUc2Q/EjmBDWZgYBajpfbChzEyMyGIHnkXLOhJrgNTSx+vRfckENpmZCRkfJMlVzEwXkfXDXcoK5ZADsOmFGMpEgaFMuAyliUtRJfipYygLSuwnmG9/d/Gkp9ACmACQrwASx2ooC2M+Lpd+QBIDpdl4IAYbarPrQwFQnqTcBjO0EUiBXGMAk3Dc+wnEng+UMyDSrAugbIpRoLjt/wLjfMDiMpDFE3Y58nwgyqVYAl0AzQWJW+24LpDkfaTcgcwFuahxozXHBLLyPgwglQEbQOGzzpL9AdkFCpzDxAgybOEqc7YNg67kBwgwAKUbRN0YIt5QAAAAAElFTkSuQmCC) no-repeat top left transparent;
 }
 .collectionviewer_widget .s3d-button.collectionviewer_comments_button .collectionviewer_comments_count {
     display: block;
@@ -173,7 +173,7 @@
     padding-top: 0;
 }
 .collectionviewer_widget .searchcontent_result_usedin_icon {
-    background: url("/devwidgets/entity/images/entity_used_by_icon.png") no-repeat scroll center center transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAKCAYAAABrGwT5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAANlJREFUeNqcka0TgkAQxblDCmSyZun+E2bNZgdo9Os0/g0z3WyHbDdT+PS3DtjAj53Z2bu3+/a9m1PDMFj/hp5rZFmWkOZnMqS9VKWUnI9zZDXZZmhH2UBYg3lxHBswT2udglVgVd/3JTM5vUo4q5EY2LadkJYsa9s2GZe7YC4LfLlADuhtOZq3sth0HOckZAaE/Foid0mxP4X0yDPqj+nNV4B70zQWWYRheIBsWJQv/YZaauLIRzklPVEfXRVRFJnFr5IQa13XGdzc6rouqBfE0q+UP8VTgAEA/6+GmArOccMAAAAASUVORK5CYII=) no-repeat scroll center center transparent;
     display: block;
     float: left;
     height: 15px;
@@ -183,7 +183,7 @@
 
 /* Carousel Specific */
 .collectionviewer_widget #collectionviewer_carousel_container {
-    background: url("/devwidgets/collectionviewer/images/collectionviewer_bg.png") repeat-x scroll left top transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABLCAIAAAA+tHrUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeNqEjFEKwCAMQ5tombj7X2seyErH/BhOHH48wgttWMrFnE+mdFBVGaMyBFJEBkDgz9Fz7fjsAJh213d7nO67bnTvuXZ/f2Z/aK3RzFhrvQUYAAsAHzmnIjvvAAAAAElFTkSuQmCC) repeat-x scroll left top transparent;
     box-shadow: 0 0 3px #999999 inset;
     height: 75px;
     overflow: hidden;
@@ -194,7 +194,7 @@
     width: 32px;
 }
 .collectionviewer_widget #collectionviewer_carousel_container .collectionviewer_prev_next_container {
-    background: url("/devwidgets/collectionviewer/images/collectionviewer_prev_next_bg.png") no-repeat scroll center center transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAABLCAIAAACeKxI6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAASpJREFUeNrsWUmSwzAINBLO/5+U/AuhaeSKy84lcwDNxIGifPChUTdohR73OzNTKYVo8TPtvauKCK+328pmRBbFB10NH+hAZKCvw0qtXiQAr63RQOPKFqEOEo4MhKiPSKZMBZGK8RevADbyWpEDgDNk2dQvfgFgyIHBwpdgYyh1dJ/hH5xB5uROAu0eLlHm4O9zMEGiF1KOEk2qohdSjhI9AwRX0Yx5EBuBl+AIn79UhDOYMNEuMA8yye82nLN5Het2yzL9B8v1WSCnJB8As0x/wyC0SuP35EzyV6ymS2CZ7sf3uDLNLTPXopToEleofJD6DonyreLqN/3PL9MJDFS7dY16J3zU7VSxYaqymjUR+09Oba6tiQZYQLO0RiJbS8qzjzbagAD/EWAA44fYK0LFuQ0AAAAASUVORK5CYII=) no-repeat scroll center center transparent;
     width: 32px;
     height: 75px;
 }
@@ -202,34 +202,34 @@
     cursor: pointer;
 }
 .collectionviewer_widget #collectionviewer_carousel_container .collectionviewer_prev_next_container #collectionviewer_newer {
-    background: url("/devwidgets/collectionviewer/images/collectionviewer_newer_icon.png") no-repeat scroll center center transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe1JREFUeNqs1U1qwkAUAODJj1Gxiv8GC0I3gksFewOhC1EILrxEr9DbFARF6C5QLHbTnYLgCbpT8Q+D0Wi0bwKRGDSZpBkYTJzkY+bNyzyq1+shp41hGBQIBDiapvlyufxrHKPdYOFwmON5vp3NZn/G4/GTa1DH0ul0O5VK1ZLJ5GMmk+kbUdoNlkgkasFgEHEch6LRaA7w/mg0yhGDZgzihyiK0joeAzzn9/vfiMB7GG7n8xnt93u02WzE7Xb7agvaYbvdDi0WC3E6nQqlUkm2BJ1gxWJRttwUt9hN0AkGsZPN79P/wY7HI7oLeoFdQK8wDfQS00DIcC4Wi7Xj8fgVhpuqqkiSJHE+nxNh+pIZQB4snpFgpgqeLUmjFUWRl8tldbVafeHPyPgiDkcoFGpAKFoQFgbf24J4GXg5k8mkCrG6QvHy8akC4WhAjIlQbZe9RC956BV69aUYUdjZT5wyTlHW/IeOwmUd+gcAFeOBqqMw1oLexNllW1N0FJK5Dsu3nOlwOGSIipRb1PLEJkWhSLUGgwFDVFNMqHgLhU+3EYlE3omrngEVzOjpdEKHw0GFZzo3d9kOhUsBeheW+uLz+fDhoc5ms2ahUHAGmlGYWRcKfWW9Xjfz+Xznbh6SovArsCz7DEXq2zj+J8AAIfrpiJTnCtMAAAAASUVORK5CYII=) no-repeat scroll center center transparent;
     height: 50px;
 }
 .collectionviewer_widget #collectionviewer_carousel_container .collectionviewer_prev_next_container #collectionviewer_newest {
-    background: url("/devwidgets/collectionviewer/images/collectionviewer_newest_icon.png") no-repeat scroll center center transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAASlJREFUeNpi/P//PwO5gImBAkC05itXrhjcuXPn8IULFyRgYizICh49evQDRMvJyXEgi1+7ds1AXFx8LwsLi9C/f/9mAoX8MTRzc3P/RLcRpFFMTGwXJyen0OfPn29+//49HavNQPAfh0bRL1++3Hz16pWDvr7+C4J+BmrURdb48uVLBz09vRcEA+zs2bO6goKCe3l5eUX//v175/379xgacWoGBsojoKb7QJqBkZFRgpmZWYXoqDI1Nf349u1btw8fPpxiYmLiERIS2n7jxg0bouMZGDAfgQHk9unTp1McHBw8oqKiu9ANQNfMCMXYDOAEGXD16lV7rJq/fv3KDsLYXPDx48dTQC4nGxtbBSJigRmDGHzu3Dl+YPRNOHPmDCdMjJGSXAUQYACzGrSgk6/oYgAAAABJRU5ErkJggg==) no-repeat scroll center center transparent;
     height: 24px;
     border-top: 1px solid #C2C2C2;
 }
 .collectionviewer_widget #collectionviewer_carousel_container .collectionviewer_prev_next_container #collectionviewer_older {
-    background: url("/devwidgets/collectionviewer/images/collectionviewer_older_icon.png") no-repeat scroll center center transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAf9JREFUeNqs1slqwkAYB/A4iRsuuOCGIPQRvHm2lx7EUmmhL9FX6NsUBKVnoSg92h58D3fFJRqN9v8NTUhL0yxmYMiMxl++mfkmo6/b7QpUfD6f4Pf7hWAwWDydTuPdbqeoqipYlWq1+qPPjFgikbgqFAof+Xy+GYvFAqIoCk6LZMRyudx7PB4vIrI7YC18/7BarWxFqoOMMQHRlDKZzDvQkiRJ/It0Ol3HxTHKaFiYt+dwOFyiNkVMNRQKcTSbzbacDJ/Rk7fb7ROi6Oz3e+F8PuuL5Abl4Hq9lkejUWM2m3WwuhehfJWPx6OACD1BmdbwCmXGjheo9PsDDUWzgfqaSqVuCPq9+lpKoSqmEbqJdDAYBCzBS1D2Xwq4QZlVomrodDptIF87xi2ooZjnejKZbPX7/QCzs50oKlSa/LXZPcCjuIiSFUapgRQRMbRmJBK5N6YKPYi262Kx6M3n81qlUpGZHQxz1MSw7vEC4cM0Ypjb3nA4rJXLZfnfOXSDmYJusT93ihVGqQPsDal0+72jzPeyU4xSyhT0AtNBrzD9TIlGoyIOqYsxDtIph6PzBVvHDOvYxTiIfwm0X9uHw0Gl9h9Ywy7GQbpxuVy2x+PxI36oUt8txvOQopFlmYA2+o9I2qaiKG+TycQxpie2huIV1d5sNtdAPtF3jFH5EmAAYC0pv/9QxRAAAAAASUVORK5CYII=) no-repeat scroll center center transparent;
     height: 50px;
 }
 .collectionviewer_widget #collectionviewer_carousel_container .collectionviewer_prev_next_container #collectionviewer_oldest {
-    background: url("/devwidgets/collectionviewer/images/collectionviewer_oldest_icon.png") no-repeat scroll center center transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAASpJREFUeNpi/P//PwO5gImBAgDXfOHCBYk7d+4cu3LligHRukHOBuGbN29ufPfu3f9Xr169vXr1qgFMHIYfPnz4A4SRxeA2f//+Pf3nz583ubi4hMTExHZdu3YNxQXc3Nw/QRirs/X19V8AbXX48uXLTU5OTlGoAbrIjoRi7AGmp6f34uXLl8gG7EUzAH9ogwx4//69w9+/f+/w8vKKCgoK7j179qwu0VHFzMyswsjIKPHv3z8GoCH3gfQjojTfuHHDRkhIaDsTExPPhw8fTr19+9bN1NT0IzbNLOgaRUVFd3FwcHB++vTpFDAA3YAB+ZGgn4Fxa09AIyMUY2pmY2OrAFKcHz9+xGrj169f2UEYawo7c+YMJzBaJpw7d44fPXXhwoyU5CqAAAMA+ZrajjSi+YYAAAAASUVORK5CYII=) no-repeat scroll center center transparent;
     height: 24px;
     border-top: 1px solid #C2C2C2;
 }
 .collectionviewer_widget #collectionviewer_carousel_container .collectionviewer_prev_next_container #collectionviewer_newer:hover {
-    background: url("/devwidgets/collectionviewer/images/collectionviewer_newer_icon_hover.png") no-repeat scroll center center transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAWZJREFUeNqslk1qg0AYhm0MWfUAhUIgl+hGcd1FSCC46AGqrnqF3sOdIgUhoWtBCO2mC/EUPUNhoKD2naBlOh3180d4CPm+8OSdz5/xynVdbeSxAje+73+KxcUE2RF8eJ63+SOsqkobyAocwQ7cgjescjNWKMqa2ppLHcdZc+GyLMuhy9wpelz2DB6X/F8myviRgCdqQorsEAQBuwh7EpJkYRiyptCVkCSLooiJxTYhSQaY3FAJR8suwqIoZpPJCSfLROEsskY4m6wR6vi87vjNF/im3p8LnBQGtuDMT5ACG8RAV/X/CfkMAQNbcK6/y9gg5quRe23C0dIu4SipaobyXJqZppSZ9iUUk+5B2peUKiRLLcvSqUKy1DRNfcgmxcAepC19G8SGYeiUhHLSpCPpy9BtlCc9gETRK8Bp6Daq1Q8I/qB4Bfd1jV87D1mWnca+OYhJebJfGWXX60t6l+f5u9j4EWAACSRVoI2RWwIAAAAASUVORK5CYII=) no-repeat scroll center center transparent;
 }
 .collectionviewer_widget #collectionviewer_carousel_container .collectionviewer_prev_next_container #collectionviewer_newest:hover {
-    background: url("/devwidgets/collectionviewer/images/collectionviewer_newest_icon_hover.png") no-repeat scroll center center transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARZJREFUeNpi/P//PwO5gImBAsBCrML09HQDIDUZiENnzpz5AsPmlJSUHyCMrhEoZvD379+9QGwDxDOx2gyU+ImuMTExEWTjLiAWAuKbIEdg1fznzx+U0IuNjYVpFIVqdFi8ePELrJp///4NZ0dEROiia1yxYsULnAEG0xwcHAzSuBeq8Q5I49q1a1/gDW0kmx8B8X2oZgkgVgHiF3jj+devX2C8adOmj0DaDYhPATEPEG/38PCwwasZZDPM9h07dnwEst2A+BQQ8wDxLmdnZxt8mhlBGMbfu3cvsgGcIAPs7OzssWoGRhU7CCOLHTp06CNQzA2ITwExJxBXwOQYic0Y5ubm/ECqEYgrT548+Z0kzdgAQIABANN2qY+InLS0AAAAAElFTkSuQmCC) no-repeat scroll center center transparent;
 }
 .collectionviewer_widget #collectionviewer_carousel_container .collectionviewer_prev_next_container #collectionviewer_older:hover {
-    background: url("/devwidgets/collectionviewer/images/collectionviewer_older_icon_hover.png") no-repeat scroll center center transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdVJREFUeNqclu+KAVEYh2fRqa29A6Vcg49kpWRls3aaFUlE+LS3sJci0tTGtB+2hJQkYl3P1qkt7O+IaTB/3vHW04xzTs/8zhlzZjz7/V4y0mg0/IBdtlPxSIZqNptBHH7AJ86ZdEPpQqQK4goz4AevoC+S3iSs1+uBoyxgiJ8RUvQx18LdbvcBAkC6IAP6tVqNuRIiyTsYWSz0IWm1WmVkYavV4kgig5FJSj1ppVJh5JvSbrc5kshOScvlMiMJRXU6HVLSUqnESEJR3W6XJC0Wi4wkFKWqKklaKBSupHdifawql8vd4/AFniyGfIO3Xq/3Z5vwVBhISqooCiMJRWmaRpLKsswcp2ysbDZLmr6P+kghhVinX5shD8BLEqbTaa/Y0oBiMWQKngeDAXcUplIpkmw4HHLxw1aYTCZJsvF4zE8NlsJEIkGSTSYTbmw0FcbjcSfZBLxMp1N+2XEljMViJNlsNuNmnWfCaDRKks3nc261VLowEomQZIvFgtvdyIMwHA6TZMvlkjv9zXzHp0C1kY2AvFqtuJuXlAa2Jtu+eB2QZbpwvV5rSJkHW8MuInYXGX1k2dn2tdlsRMr8MekhGdpcyaTjdM8IhUKP4P7Wj6V/AQYA7RNYM6kK8nQAAAAASUVORK5CYII=) no-repeat scroll center center transparent;
 }
 .collectionviewer_widget #collectionviewer_carousel_container .collectionviewer_prev_next_container #collectionviewer_oldest:hover {
-    background: url("/devwidgets/collectionviewer/images/collectionviewer_oldest_icon_hover.png") no-repeat scroll center center transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAASVJREFUeNpi/P//PwO5gImBAsACY6Snp0sAqXVAnDVz5swLJNn89+/fmUBsCcR7U1JSDNAVAsV+gDAuzelAfBOIhYB4V2JiIooBQLGfIIxV8/z581/8+fPHAYhvArEoEO+KjY3VhckD+f9BGGeALV68+MXv378dgPgmEIsC8d6IiAiwAUA2GCMDRmxRFRwcDAq8w0CsAsSvgdgZymdYu3atAEZoIwOgDSBNElDufSB+RFQ8e3h42Pz69Ws7EPMA8Skgdtu0adNHIM0AwljjGQScnZ1tgNQuIOYE4lNA7LZ3796PMD/jTCR2dnb2QGo7ssZDhw59RPIKI07NwGioQNZ47Nixj8gKgfLs6JrhoW1ubg7S2A7E9SdPnvxITPJkpCRXAQQYAGDwraAiJH5oAAAAAElFTkSuQmCC) no-repeat scroll center center transparent;
 }
 .collectionviewer_widget #collectionviewer_carousel_container ul {
     margin: 0;
@@ -284,7 +284,7 @@
     height: 50px;
 }
 .collectionviewer_widget #collectionviewer_carousel_container ul li .collectionviewer_carousel_no_thumbnail_container {
-    background: url("/devwidgets/collectionviewer/images/collectionviewer_carousel_item_bg.png") repeat-x top left transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA0CAIAAADEwMXAAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADJJREFUeNpi/vjxIxMDAwMTIyMDmGZgYMTDZ4SKMUDFUPnUxf+Z/v/Hxf8PprHwAQIMAMlfDz1kGZeZAAAAAElFTkSuQmCC) repeat-x top left transparent;
 }
 .collectionviewer_widget #collectionviewer_carousel_container .jcarousel-skin-tango {
     margin: 0 31px;

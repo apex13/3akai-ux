@@ -69,7 +69,7 @@
 .allcategories_widget #allcategories_items_content ul {margin:0;}
 .allcategories_widget #allcategories_items_content li {display:inline;width:207px;}
 
-.allcategories_widget .allcategories_item .allcategories_item_header .allcategories_item_raquo {background:url("/devwidgets/allcategories/images/allcategories_item_raquo.png") no-repeat top left transparent;width:15px;height:22px;float:right;}
+.allcategories_widget .allcategories_item .allcategories_item_header .allcategories_item_raquo {background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAWCAYAAAAfD8YZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAK1JREFUeNpi/P//PwO5gAmNbwDEgUTrBtkMxQZA/AqIfwJxCJI4Tgxj6EI1wgBRBsAY/EB88j8qIGgAModkA9AFSDIAm4lEG4DLP9gM+INuAL7QJGgAobjEawADEYnB9T8muAfEbIQ0WgLxBzSND4FYjpDNeDXi00xQIy7NII2fCWnEpplojeiabUjRiKxZi1SN6DbPJ0UjNj/PJ1YjCDNiKQAlgPgFMUUYQIABAObxtHgGOBlKAAAAAElFTkSuQmCC) no-repeat top left transparent;width:15px;height:22px;float:right;}
 
 /* Content Style */
 .allcategories_widget .allcategories_item .s3d-regular-links {font-size:12px;}
@@ -81,9 +81,9 @@
 .allcategories_widget .allcategories_item .allcategories_item_descriptive_text {color:#424242;font-size:11px;}
 .allcategories_widget .allcategories_content_description {color: #424242;font-size: 12px;display:block;word-wrap:break-word;margin-bottom:10px; margin-top: 5px;}
 .allcategories_widget .allcategories_content_category_description {font-size:11px;color:#424242;display:block;}
-.allcategories_widget .allcategories_content_usedin_icon {background:url("/devwidgets/entity/images/entity_used_by_icon.png") no-repeat scroll left top transparent;}
+.allcategories_widget .allcategories_content_usedin_icon {background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAKCAYAAABrGwT5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAANlJREFUeNqcka0TgkAQxblDCmSyZun+E2bNZgdo9Os0/g0z3WyHbDdT+PS3DtjAj53Z2bu3+/a9m1PDMFj/hp5rZFmWkOZnMqS9VKWUnI9zZDXZZmhH2UBYg3lxHBswT2udglVgVd/3JTM5vUo4q5EY2LadkJYsa9s2GZe7YC4LfLlADuhtOZq3sth0HOckZAaE/Foid0mxP4X0yDPqj+nNV4B70zQWWYRheIBsWJQv/YZaauLIRzklPVEfXRVRFJnFr5IQa13XGdzc6rouqBfE0q+UP8VTgAEA/6+GmArOccMAAAAASUVORK5CYII=) no-repeat scroll left top transparent;}
 .allcategories_widget .allcategories_content_icon {display:inline-block;height:10px;width:15px;margin-right:5px;}
 .allcategories_widget .allcategories_content_category_description {font-size:11px;color:#424242;display:block; margin-top: 5px;}
-.allcategories_widget .allcategories_content_comments_icon {background:url("/devwidgets/recentactivity/images/recentactivity_comment_icon.png") no-repeat scroll left top transparent;}
-.allcategories_widget .allcategories_content_tags {font-size:11px !important;display:block;margin-top:5px;color:#424242;padding-left:20px;padding-top:5px;background:url("/dev/images/tag_icon.png") no-repeat scroll left bottom transparent; clear: both;}
+.allcategories_widget .allcategories_content_comments_icon {background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAP5JREFUeNpi/P//PwM5gAVEnDp1ahGQigWxGRkZCelZbGpqGsd4/PhxfiDnA0wDiEZmYwNAVwqw/Pv3D1mBvLm5+SNsis+cOSMHpB7CvMby9+9fMIOJiQmMcQFkC0CaWf78+QMWAEkwMzMTpRFsI0gjzDZ8AQNyGYpGoMAvoGl/mSHWXQJigcOHD+cAndMFZHPCbIN5B2QG0IBfjCD3btu2LRkoOA2oF2TAbqCEH1DBQaDcTZAmWIBAXXXcyclpASNMcOvWrR+AEvxAjb+AdKWLi0sfwQQA8wPIBiAzws3N7QKhVMCEpHEu0FmGnp6eF4hJcozkplUmBjIBQIABABSyd8FWjfz4AAAAAElFTkSuQmCC) no-repeat scroll left top transparent;}
+.allcategories_widget .allcategories_content_tags {font-size:11px !important;display:block;margin-top:5px;color:#424242;padding-left:20px;padding-top:5px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOBJREFUeNpi/P//PwM6OHv2LA+QWgrE0gyY4A4LFg2cQGo7ENtAhX4B8X0gVofy2ZiwaNiCpOEvEGsbGxtrAOkmqBg/E5IGNiC1DoidkMwBaXoEZd+HCTKC/ATVsAKIA7H44QgQbwXifCCWABnCeObMGWaohhAG4sAjJqjpxGoAgblMQE+uATIKiNTQBFTfxAiLJ6C/YoHUHFCQ4tDQB9RQDA8IpBD0gIYgJ5qGiUANBSihhxZXltC4EoL5AaghBVkNI45kpAVNFQeBGuLQ5ZmwOR6o8BqQMgfiRGzyAAEGAKiHTJkwYoMDAAAAAElFTkSuQmCC) no-repeat scroll left bottom transparent; clear: both;}
 .allcategories_widget .allcategories_content_tags a {font-size:11px !important;font-weight:normal !important;}

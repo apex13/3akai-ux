@@ -18,4 +18,4 @@
 /* Widget Container CSS */
 .helloworld_widget {padding:0 12px;}
 /* Dashboard Widget Icon */
-.helloworld.s3d-widget .s3d-widget-titlebar .widget_title{background:url(/devwidgets/helloworld/images/helloworld_icon.png) 17px 18px no-repeat;}
+.helloworld.s3d-widget .s3d-widget-titlebar .widget_title{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAAmVBMVEX///+Hioz8/PyBhYf+/v6Qk5b5+fns7e2ChYh8gIP09PStr7GGiYv9/f2DhomEh4r7+/t/g4b4+Pj6+vqtr7Ds7Ozp6enj4+R9gYTt7e3k5OSQk5XQ0dKpq62FiIqOkpSBhIf29va8vr+usLLf3+CAhIbDxcasrrDw8PCChojr6+u0tri5u72OkZO1t7jv7+/e3t/Bw8SusLG/c66iAAAAk0lEQVQYV5XOxw7DIBAEUBbjNeDee03v5f8/LkpkR5Bb5vg0Iw0h/4QFD1/YmkTXwWupSvG6cMKGqSW5DcHbEUa/W7p/cnD8U9OKhYIy4QDOIfT8hTDvO3hnOC+7tDag43xTrOJZLNMAo0/s6R4xReq8vElUxUwxoPMvV37EUp5jJn6EjNVF6ELwWGVSE+LiiK4mL45aCG6iIXIGAAAAAElFTkSuQmCC) 17px 18px no-repeat;}

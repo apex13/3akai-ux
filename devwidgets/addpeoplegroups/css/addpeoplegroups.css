@@ -38,7 +38,7 @@
 #addpeoplegroups_widget #addpeoplegroups_select {margin-top:10px;width:220px;border:1px solid #999;height:20px;}
 #addpeoplegroups_widget button{margin:10px 10px 10px 0px;}
 #addpeoplegroups_widget .addpeoplegroups_close{margin-right:20px;padding-top:6px;}
-#addpeoplegroups_widget .addpeoplegroups_header_arrow{background:url("/dev/images/popover_arrowup.png") no-repeat scroll left top transparent;height:13px;margin-left:110px;position:relative;width:33px;}
+#addpeoplegroups_widget .addpeoplegroups_header_arrow{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAOCAYAAADaOrdAAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfVJREFUeNqsUz2LGlEUnfees9Gd0ZgPV2HFKo1FbLQQTBOLCCGVgn/AIp3+AQsLt7OJLAhCDGxrZWptJCAKVlFSJRgQg5AV3AgBvyb3JnfgRdT98sBh5r173z333HnDlP1gQC5RSLEVcC3R2FlkOBxuDXi9XlPAAjwCqkRORRfEOXC5T4hfI4BFbUAd+Aj4tFQqvcEnrXWKm+Jsa8eGYfxHSsTurVTIB3wOfNFutz+BcwOfuKZ9H+VZ6RzbOy5yICQHduBj7Lzb7b5zu91+M3c8Hn8JBoMZeP0JnAB/AX/TCFfy6PgWAZz/MdBBY/H0er0PsgAC17iPccpz0LkjqsPk22MuTAF08BAdAE5brdZ7Xdef7Lo5s9nsMhaLvR0MBt/J0ZQczcmRwo1/H0J24MTOAoHAs06nc7FPAIHxer1ewXxy5NxwpHDGGKcNzRQIh8P+Wq1WsdlsDuUGwDzMx3OSkEZ1mTk7O90QVzKZDJbL5XNVVa3KLSCEUBOJxOvRaPS53+9f0X+D45qjyAPgCTjyZDKZl7lcrmCxWIRyB3DOxSvAYrH4BqOekNBS0BV1Z7PZaDqdPoOOlPsAxx+JRKKapn1tNps//pqETWs+n1+nUqmP0IlyCEBNFgqFoi6Xq9BoNKasWCyyeDy+PpTAJqrVqvgjwABBEZ0LFJGxhAAAAABJRU5ErkJggg==) no-repeat scroll left top transparent;height:13px;margin-left:110px;position:relative;width:33px;}
 
 #addpeoplegroups_widget #addpeoplegroups_select .addpeoplegroups_listitem_topborder {border-top:1px solid #DBDBDB;}
 #addpeoplegroups_widget #addpeoplegroups_select #addpeoplegroups_mylibrary_option{border-bottom:1px solid #DBDBDB;}

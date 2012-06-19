@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations under the License.
  */
 /* Widget title icon */
-.recentmessages .widget_title_icon{background:url(/dev/images/content_br.png) no-repeat scroll -420px -19px transparent;}
+.recentmessages .widget_title_icon{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA4wAAAAGBAMAAAB6Jw2yAAAAA3NCSVQICAjb4U/gAAAAGFBMVEXX3N/////h5ejw9Pfd4eTm6uv29/no7O14tyPeAAAACXBIWXMAAAsSAAALEgHS3X78AAAAGHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3NPsx9OAAAAFnRFWHRDcmVhdGlvbiBUaW1lADA3LzAyLzA5CK+pwQAAADNJREFUGBntwTERACAQA8EbQACRRIGQr2jxX6EjTHZR2JugsHcbCneHTnxgEf5GEfZ26QH0YlxF4zwl9wAAAABJRU5ErkJggg==) no-repeat scroll -420px -19px transparent;}
 
 /* Error messages */
 .recentmessages_error{padding:0 0 0 15px;}

@@ -376,7 +376,7 @@
 }
 
 .s23_site #s23_site_iframe_container .s23_site_iframe_title_reset {
-    background: url("/dev/s23/images/s23_reload.png") no-repeat 0 0;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAEAB03PAAAB5klEQVRIicWVzyuEYRDH9+9zdpfsgRIXW0pSHNaWA3HAHoSinPZAaZ1EipJ2pfUj2qR1UOvmhNHnWfMa7/M8+7qZmv0xO/OdH9+Zd3MikrPqXmZ37sR9QTwPT7CObN3LZu1VbttvLrR49Czl87aMLl92wgqlE+mbq4sGID1DVak1XsTLEcwJHLBqJB02r6h0pcln8s2U6wkC9WBLGleZ3H+QEGI6Vana/GlIf3z/+JSJjYb7kt9uCGAWAFtxt5MAP/wTgIX1ukwdtKS3cCgDSw2BilAF+ZVr50ML+HktIPQaa4Gs6RYzecjkSdF1MFkDtINOANgZiEUh2ZKOsmPYdAHYvV8AlgEmzcQtAFmxWQY8GtMSakHZ8VqAEqiBIqgKARCMHz5QDvUJAGfBaqL2bCwA9OoKc17RFmx/6Rbsjnh7kAZZPWuFh5OL705MwAotYbAAWByrNGV879ExN1i5cTp/+uQeOVkF4IOvxoEBFph6i10LgCz2DIXQ/rUrB6D7yXusAOtDDLFgKJ7domgBSoF1jo2vGwU2BqxMClhP3cTxxYvEmSvV4wktWOiBo4fp/hW+BUzFJ5dXAKcwPH3sRsadWGWs2EMnki4AH3yJSeNgJwe5ulJghQA7kb9SQAyxMVyvgP/SLxzEWsPH/k9uAAAAAElFTkSuQmCC) no-repeat 0 0;
     display: block;
     float: left;
     height: 16px;

@@ -22,7 +22,7 @@
 #assignlocation_jstree_selected_container{width:51%;padding:0;height:320px;}
 #assignlocation_jstree_selected_container ul{margin:0;}
 .assignlocation_secondcolumn_header{position:absolute;left:48%;}
-.assignlocation_close_image {float:right;margin-right:5px;background:url(/dev/images/close_dialog.png) no-repeat scroll transparent;cursor:pointer;display:block;height:15px;overflow:hidden;width:14px;}
+.assignlocation_close_image {float:right;margin-right:5px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAAACQKrqGAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAXVJREFUeNqEkl9LwlAYxo9H8XNUEGk1CETpYhCzNDP6/4fNhfjvQvwkXguCFyJDEfHGG+/zI0gSRN7lBxBDYVtuZz1tKEKUD2w877vnvPzOy1yR+NXW5gZZp4/RiDzKScuy2L+az+f30hMljFi2BoOB9Uv9fl/TdLfbTQmlJjPRarfbgUAA79WcoiihUKjXe4ZHjMQvbw3DUFVVFEWcbjabX7aq1SrKXC4Hj8DNg+jRdR3UlNJarQaTTP6g42Q+n0+n0+VyGSX6zGREiJyCWrU1m80SiQSG4Vs2m1UXQuDi+o6aBlvCYTbP86ZpIhoOh1e50aR4lsuq1+uFQiGTyUiSBJJOp+P07Sgjh/wRcKfTaaVSwTDwwU8mE1mWQdJoNFBqmhaJnZNd7gCu1Wohl0qlPhcaj8dOutvtAvc4GvMwG0AQhGKxiFs793V2UiqVOI4LBoPOBlzbvr231xdnZX/J6/WeRM9cO/59v8+39nd5Hw6/BRgAdP5D590tdLQAAAAASUVORK5CYII=) no-repeat scroll transparent;cursor:pointer;display:block;height:15px;overflow:hidden;width:14px;}
 .assignlocation_close_link{text-decoration:none!important;}
 .assignlocation_container_area{margin:0!important;position:relative;overflow:hidden;}
 #assignlocation_container .jstree-default .jstree-unchecked a .jstree-checkbox{margin-right:3px;}

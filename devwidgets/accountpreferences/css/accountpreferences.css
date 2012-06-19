@@ -241,10 +241,10 @@ div.accountpreferences_error {
     width: 15px;
 }
 #accountpreferences_changePrivacyContainer label .label_icon.globe {
-    background: url("/dev/images/globe_icon_black.png") no-repeat scroll left top transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAThJREFUeNq8k+9Rg0AQxeGA75SQCjitQNIBVmCsAKkgsQK1A61ASqACCDQgJVwB/PG3DGQumHzRGW/mzXHL7tv3lsMdx9H57VLOH5a/DkRRFLOlrusmVrhF4UfTNIernSncscVKqdDzPMf3fUEGNkEQ7LXWycXiuaOm4zv7EeTAcH5Z5gLhHQSflzrHyMrYE5JDIGThlKROaVPshrX2rIl9iT+SRbpDV1ulgXBb17UhbyJ1F0nIGcXnUrAqdIZhKMqy3Nqxs2IGI1PNKdyB0E4kbiB46/tejq9YNMp6WYAj7FnXdbckOvYFEjKs7MEDz/F6YM8kJ/g54KuFRFRt1zeQ4pb3+VkxMgq6PQo7Fp4khsR0ljmpEGXg/ofn08i1lkmnEMnn2MxTn26YeK2qylwt/rcf41uAAQBRLKalXvY3KQAAAABJRU5ErkJggg==) no-repeat scroll left top transparent;
 }
 #accountpreferences_changePrivacyContainer label .label_icon.small_institution {
-    background: url("/dev/images/small_institution_icon.png") no-repeat scroll left top transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAWBJREFUeNq0Uz1Sg1AQfu/xK6agtIMjaOfQCKYwTRJuYG4QPUE8gkeAG4BWsUpnKRfITI6Qkr8Qv0V0AqiTccad2Xkf+3b349sFvt/v2V9N/HTxFEUm/O63Yt5lRsE553wuSZIvhDBxbtI0jZAXTnw/6RU/x7ENPGOc30pC2LKisBNdZ7Is10m73Y7lec7QJAEOEQrG0+n245ZzF2xMVdVQUVWGBozeJy8KRnEyCY1OBwNqZBZF4VODWvN4MgkUsMESz/MewFCzXLnuJ14RzrLMKstydTMaBa2BoeMCGueEkfCFwbIAu9vEZ5iB25s2gswwjG+xDv11MuRAWn9VAtpEo+8Y3CquMPWqWVsXcyF6mEw+WNsFtG27GOch9uCb1p5flksb2t4wcZOeyUlfF1dVRefj9XB4X8/DcRwTLV/xQZwNsEdN02qnwahdjMGB4HK9XtuWZcX8X36MY+xdgAEAJsyiKSGsq+QAAAAASUVORK5CYII=) no-repeat scroll left top transparent;
 }
 #accountpreferences_changePrivacyContainer .accountpreferences_unselected_rbt {
     height: 30px;
@@ -256,4 +256,3 @@ div.accountpreferences_error {
     margin-right: 10px;
     margin-top: 2px;
 }
-
