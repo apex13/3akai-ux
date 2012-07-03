@@ -131,7 +131,10 @@ require(["jquery", "sakai/sakai.api.core"], function($, sakai) {
      * Create a simple group and execute the tagging and membership functions
      */
     var doCreateSimpleGroup = function() {
-        sakai.api.Util.progressIndicator.showProgressIndicator(sakai.api.i18n.getValueForKey("CREATING_YOUR_GROUP", "newcreategroup").replace(/\$\{type\}/, sakai.api.i18n.getValueForKey(currentTemplate.title)), sakai.api.i18n.getValueForKey("PROCESSING"));
+        sakai.api.Util.progressIndicator.showProgressIndicator(
+            sakai.api.i18n.getValueForKey('CREATING_YOUR_GROUP', 'newcreategroup').replace(/\$\{type\}/, sakai.api.i18n.getValueForKey(currentTemplate.title)),
+            sakai.api.i18n.getValueForKey('PROCESSING_GROUP', 'newcreategroup')
+        );
         var grouptitle = $newcreategroupGroupTitle.val() || "";
         var groupdescription = $newcreategroupGroupDescription.val() || "";
         var groupid = sakai.api.Util.makeSafeURL($newcreategroupSuggestedURL.val(), "-");
@@ -149,10 +152,14 @@ require(["jquery", "sakai/sakai.api.core"], function($, sakai) {
                     window.location = "/~" + groupid;
                 }
             } else {
+                var errorMessage = sakai.api.i18n.getValueForKey("GROUP_NOT_SUCCESSFULLY_CREATED", "newcreategroup").replace(/\$\{title\}/, grouptitle);
+                if (groupData.errorMessage) {
+                    errorMessage = errorMessage + sakai.api.i18n.getValueForKey(groupData.errorMessage, "newcreategroup");
+                }
                 $newcreategroupContainer.find("select, input, textarea:not([class*='as-input']), button").removeAttr("disabled");
                 sakai.api.Util.progressIndicator.hideProgressIndicator();
                 sakai.api.Util.notification.show(sakai.api.i18n.getValueForKey("AN_ERROR_OCCURRED", "newcreategroup"),
-                    sakai.api.i18n.getValueForKey("GROUP_NOT_SUCCESSFULLY_CREATED", "newcreategroup").replace(/\$\{title\}/, grouptitle),
+                    errorMessage,
                     sakai.api.Util.notification.type.ERROR);
             }
         });

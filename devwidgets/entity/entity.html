@@ -15,7 +15,7 @@
             {/if}
             {if data && data.data && data.data.mimeType && data.data.mimeType !== "x-sakai/document" && sakai_global.content_profile.content_data.data["_mimeType"] !== "x-sakai/link" && sakai_global.content_profile.content_data.data["_mimeType"] !== "x-sakai/collection"}
                 <li id="ew_upload">
-                    <button class="s3d-link-button">__MSG__UPLOAD_NEW_VERSION__</button>
+                    <button class="s3d-link-button">__MSG__UPLOAD_A_NEW_VERSION__</button>
                 </li>
                 <hr class="s3d-split-line"/>
             {/if}
@@ -225,7 +225,7 @@
 
         {if data.isManager}
             <div class="entity_owns_actions_container">
-                <span class="entity_owns_actions_header">__MSG__VISIBILITY__</span>
+                <div class="entity_owns_actions_header">__MSG__VISIBILITY__</div>
                 <div class="s3d-button s3d-header-button s3d-header-smaller-button entity_owns_actions">
                     <div class="entity_owns_actions_private ew_permissions {if permissions === "private"} selected {/if}" data-permissionvalue="private">
                         <div class="s3d-dropdown-list">
@@ -263,14 +263,14 @@
                 </div>
             </div>
             <div class="entity_owns_actions_container">
-                <span class="entity_owns_actions_header">__MSG__COLLABORATION__</span>
+                <div class="entity_owns_actions_header">__MSG__COLLABORATION__</div>
                 <div class="s3d-actions-addtolibrary s3d-action-icon fl-force-right"  style="display:none;">
                     <div class="s3d-dropdown-list">
                         <div class="s3d-dropdown-list-arrow-up"></div>
                         <span>__MSG__CREATE_COLLECTION_FROM_PEOPLE_WORKING_ON_THIS__</span>
                     </div>
                 </div>
-                <div class="s3d-button s3d-header-button s3d-header-smaller-button entity_owns_actions">
+                <div class="s3d-button s3d-header-button s3d-header-smaller-button entity_owns_actions entity_owns_actions_collab">
                     <div class="entity_owns_actions_collaborator has_counts ew_permissions">
                         <div class="s3d-dropdown-list">
                             <div class="s3d-dropdown-list-arrow-up"></div>
@@ -303,7 +303,6 @@
                         </div>
                         <span id="entity_participants_count">${data.members.counts.collaboratorusers}</span>
                     </div>
-                    <span>|</span>
                     <div class="entity_owns_actions_share has_counts ew_permissions">
                         <div class="s3d-dropdown-list">
                             <div class="s3d-dropdown-list-arrow-up"></div>
@@ -353,15 +352,14 @@
                         <span>${(data.members.counts.viewergroups + data.members.counts.viewerusers + data.members.counts.viewercollections) || "0"}</span>
                     </div>
                     {if canShare}
-                        <span>|</span>
                         <button type="button" class="s3d-link-button s3d-bold share_trigger_click" data-entityid="${data.data["_path"]}">__MSG__SHARE__</button>
                     {/if}
                 </div>
             </div>
             <span class="entity_comments">
-                <img src="/devwidgets/entity/images/entity_comment_icon.png" alt="__MSG__COMMENTS__" />
+                <img src="/devwidgets/entity/images/entity_comment_icon.png" alt="__MSG__COMMENTS_LC__" />
                 {var commentCount = sakai.api.Content.getCommentCount(data.data)}
-                <a id="entity_comments_link" href="#"><span>${commentCount || "0"}</span> {if commentCount == 1} __MSG__COMMENT__{else} __MSG__COMMENTS__{/if}</a>
+                <a id="entity_comments_link" href="#"><span>${commentCount || "0"}</span> {if commentCount == 1} __MSG__COMMENT_LC__{else} __MSG__COMMENTS_LC__{/if}</a>
             </span>
         {else}
             <span class="entity_comments">
@@ -398,9 +396,9 @@
                         {/if}
                     </div>
                 {/if}
-                <img src="/devwidgets/entity/images/entity_comment_icon.png" alt="__MSG__COMMENTS__" />
+                <img src="/devwidgets/entity/images/entity_comment_icon.png" alt="__MSG__COMMENTS_LC__" />
                 {var commentCount = sakai.api.Content.getCommentCount(data.data)}
-                <a id="entity_comments_link" href="javascript:;"><span>${commentCount || "0"}</span> {if commentCount == 1} __MSG__COMMENT__{else} __MSG__COMMENTS__{/if}</a>
+                <a id="entity_comments_link" href="javascript:;"><span>${commentCount || "0"}</span> {if commentCount == 1} __MSG__COMMENT_LC__{else} __MSG__COMMENTS_LC__{/if}</a>
                 <div class="entity_number entity_permissions_label">
                     {var permissions = data.data["sakai:permissions"]}
                     <div id="entity_${permissions}_privacy_icon" class="entity_content_details_icon"></div>
@@ -411,7 +409,7 @@
                         {else}
                             __MSG__PRIVATE_TO__ ${sakai.api.User.getDisplayName(sakai.data.me.profile)}
                             {if (peopleCount + groupCount) > 1}
-                            + ${groupCount + peopleCount - 1} __MSG__OTHERS__
+                            + ${groupCount + peopleCount - 1} __MSG__OTHERS_LC__
                         {/if}
                     {/if}
                 </div>
@@ -472,9 +470,9 @@ ${macros["entityContentOwnsMacro"] = entityContentOwnsMacro |eat}
             </span>
             <span id="entity_participants_text">
                 {if membersCount === 1}
-                    __MSG__PARTICIPANT__
+                    __MSG__PARTICIPANT_LC__
                 {else}
-                    __MSG__PARTICIPANTS__
+                    __MSG__PARTICIPANTS_LC__
                 {/if}
             </span>
         </span>

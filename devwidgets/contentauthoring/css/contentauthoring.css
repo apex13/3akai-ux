@@ -76,6 +76,7 @@
     display:table-cell !important;
     width: 100%;
     vertical-align: top !important;
+    height: auto !important;
 }
 
 .contentauthoring_widget .contentauthoring_table_row.contentauthoring_cell_container_row .contentauthoring_cell:first-child {
@@ -158,7 +159,7 @@
 }
 
 #contentauthoring_row_menu.s3d-dropdown-list .s3d-dropdown-list-arrow-up {
-    right: 35px;
+    left: 37px;
     background-position: left -7px;
     height: 14px;
     margin-top: -13px;
@@ -180,7 +181,13 @@
 .contentauthoring_cell_element_actions {
     width: 55px;
     height: 20px;
-    background: url("/devwidgets/contentauthoring/images/row_edit_handle_bg.png") repeat-x top left #333;
+    background: #434343;
+    background: -moz-linear-gradient(top, #4d4d4d 0%, #3a3a3a 89%, #333333 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4d4d4d), color-stop(89%,#3a3a3a), color-stop(100%,#333333));
+    background: -webkit-linear-gradient(top, #4d4d4d 0%,#3a3a3a 89%,#333333 100%);
+    background: -o-linear-gradient(top, #4d4d4d 0%,#3a3a3a 89%,#333333 100%);
+    background: -ms-linear-gradient(top, #4d4d4d 0%,#3a3a3a 89%,#333333 100%);
+    background: linear-gradient(top, #4d4d4d 0%,#3a3a3a 89%,#333333 100%);
     visibility: hidden;
     display: none;
     color: #fff;
@@ -309,7 +316,7 @@
 }
 
 .contentauthoring_edit_mode .s3d-dropdown-list .s3d-dropdown-hassubnav ul {
-    width: 120px;
+    padding-right: 30px;
 }
 
 .contentauthoring_dummy_element {
