@@ -1261,8 +1261,10 @@ require(['jquery', 'underscore', 'sakai/sakai.api.core', 'jquery-ui'], function(
         // Internal event binding //
         ////////////////////////////
 
-        $rootel.on('click', '.lhnavigation_selected_submenu', function(ev){
-            showContextMenu($(this), ev.pageX, ev.pageY);
+        $('.lhnavigation_selected_submenu').live('click keyup', function(ev) {
+            if (ev.type === 'click' || (ev.type === 'keyup' && ev.keyCode === 13)) {
+                showContextMenu($(this));
+            }
         });
 
         $rootel.on('mouseenter focus', '.lhnavigation_item_content, .lhnavigation_subnav_item_content', function() {
