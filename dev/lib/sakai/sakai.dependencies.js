@@ -135,6 +135,7 @@ require(
         'jquery-plugins/jquery.infinitescroll-sakai'
     ],
     function($, sakai) {
+        console.log('About to load Me Data.');
         sakai.api.User.loadMeData(function(success, data) {
             sakai.api.Util.startup(data);
             // Start i18n

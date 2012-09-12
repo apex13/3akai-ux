@@ -107,6 +107,7 @@ define(
              *     Name of the widget as registered in the widget config file(e.g. sites, myprofile, video, ...)
              */
             informFinish : function(tuid, widgetname) {
+                console.log('Sakai Widget :: informFinish - ', widgetname);
                 if (this.toCallOnFinish) {
                     this.toCallOnFinish(tuid, widgetname);
                 }
@@ -212,6 +213,7 @@ define(
              *  false : render the view mode of the widget
              */
             insertWidgets : function(id, showSettings, context, widgetData, widgetDataPassthrough, callback) {
+                console.log('Sakai Widgets :: insertWidgets');
                 var obj = this.loadWidgets(id, showSettings, context, widgetData, widgetDataPassthrough, callback);
                 this.loaded.push(obj);
             },
@@ -225,6 +227,7 @@ define(
              * @param {String} context The context of the widget (e.g. siteid)
              */
             loadWidgets : function(id, showSettings, context, widgetData, widgetDataPassthrough, callback) {
+                console.log('Sakai Widgets :: loadWidgets');
                 // Configuration variables
                 var widgetNameSpace = 'sakai_global';
                 var widgetSelector = '.widget_inline';
@@ -239,6 +242,7 @@ define(
                  * @param {String} widgetname The name of the widget
                  */
                 var informOnLoad = function(widgetname) {
+                    console.log('Sakai Widgets :: loadWidgets :: informOnLoad - ', widgetname);
                     var doDelete;
                     // Check if the name of the widget is inside the widgets object.
                     if (widgetsInternal[widgetname] && widgetsInternal[widgetname].length > 0) {
@@ -349,11 +353,13 @@ define(
                  * @param {Object} batchWidgets A list of all the widgets that need to load
                  */
                 var loadWidgetFiles = function(widgetsInternal2, batchWidgets) {
+                    console.log('Sakai Widgets :: loadWidgetFiles');
                     var urls = [];
                     var requestedURLsResults = [];
                     var requestedBundlesResults = [];
 
                     $.each(batchWidgets, function(url, widget) {
+                        console.log('   Loading files for ', widget);
                         urls.push(url);
                     });
 
@@ -516,7 +522,7 @@ define(
                  * @param {String} context The context of the widget (e.g. siteid)
                  */
                 var locateWidgets = function(containerId, showSettings, widgetData, context, callback) {
-
+                    console.log('Sakai Widgets :: locateWidgets');
                     // Use document.getElementById() to avoid jQuery selector escaping issues with '/'
                     var el = containerId ? document.getElementById(containerId) : $(document.body);
 
@@ -534,7 +540,7 @@ define(
                         var id = divarray[i].id;
                         var split = id.split('_');
                         var widgetname = split[1];
-
+                        
                         // Set the id for the container of the widget
                         var widgetid;
                         if (split[2]) {
@@ -580,6 +586,7 @@ define(
                             widgetsInternal[widgetname][index].floating = floating;
 
                         }
+                        console.log('   Inserting ', widgetname, ' onto page.');
                     }
 
                     for (i in widgetsInternal) {
@@ -609,6 +616,7 @@ define(
             },
 
             informOnLoad : function(widgetname) {
+                console.log('Sakai Widgets :: informOnLoad - ', widgetname);
                 // Inform the widgets that they have been loaded
                 for (var i = 0, j = sakaiWidgetsAPI.widgetLoader.loaded.length; i<j; i++) {
                     sakaiWidgetsAPI.widgetLoader.loaded[i].informOnLoad(widgetname);
@@ -841,6 +849,7 @@ define(
          * @param {Object} widgetid     id of the widget as specified in the widget's config file
          */
         getWidget: function(widgetid) {
+            console.log('Sakai Widgets :: getWidget - ', widgetid);
             if (sakai.widgets[widgetid]) {
                 return sakai.widgets[widgetid];
             } else {
@@ -934,6 +943,8 @@ define(
                         widget.trigger.selectors = widget.trigger.selectors || [];
 
                         var lazyLoadWidget = function(finishCallBack) {
+                            console.log('Sakai Widgets :: lazyLoadWidget');
+                            console.log('   widgetid: ', widgetid);
                             // Unbind the event
                             $.each(widget.trigger.events, function(index, eventid) {
                                 $(document).off(eventid);
@@ -942,7 +953,6 @@ define(
                             $.each(widget.trigger.selectors, function(index, selector) {
                                 $(document).off('click', selector);
                             });
-
                             $('body').prepend('<div id="widget_' + widgetid + '" class="widget_inline"></div>');
                             sakaiWidgetsAPI.widgetLoader.insertWidgets(null, false, null, null, null, finishCallBack);
                         };
@@ -974,6 +984,7 @@ define(
         },
 
         initialLoad : function() {
+            console.log('Sakai Widgets :: initialLoad');
             sakaiWidgetsAPI.bindToHash();
             sakaiWidgetsAPI.Container.setReadyToLoad(true);
 

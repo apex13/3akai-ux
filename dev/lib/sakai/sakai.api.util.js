@@ -47,6 +47,7 @@ define(
         },
 
         startup : function(meData) {
+            console.log('Sakai Util :: startup');
             // Start polling to keep session alive when logged in
             if (meData.user.userid) {
                 setInterval(function() {

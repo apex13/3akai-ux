@@ -77,6 +77,7 @@ define(
          * @param {Object} meData the data from sakai.api.User.data.me
          */
         init : function(meData) {
+            console.log('Sakai i18n :: init');
             ////////////////////
             // HELP VARIABLES //
             ////////////////////

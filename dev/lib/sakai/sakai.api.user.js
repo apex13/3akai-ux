@@ -421,6 +421,7 @@ define(
          * @return {Void}
          */
         loadMeData : function(callback) {
+            console.log('Sakai User :: loadMeData');
             var cache = true;
             // don't use cache for IE8
             if ($.browser.msie) {
