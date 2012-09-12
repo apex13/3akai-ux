@@ -214,6 +214,13 @@ define(
              */
             insertWidgets : function(id, showSettings, context, widgetData, widgetDataPassthrough, callback) {
                 console.log('Sakai Widgets :: insertWidgets');
+                console.log('   Calling loadWidgets with the following parameters:');
+                console.log('   id: ', id);
+                console.log('   showSettings: ', showSettings);
+                console.log('   context: ', context);
+                console.log('   widgetData: ', widgetData);
+                console.log('   widgetDataPassthrough: ', widgetDataPassthrough);
+                console.log('   callback: ', callback);
                 var obj = this.loadWidgets(id, showSettings, context, widgetData, widgetDataPassthrough, callback);
                 this.loaded.push(obj);
             },
@@ -235,7 +242,13 @@ define(
                 // Help variables
                 var widgetsInternal = {}, settings = false;
                 widgetData = widgetData || {};
-
+                
+                for (prop in widgetData) {
+                    if (widgetData.hasOwnProperty(prop)) {
+                        console.log('   widgetData[' + prop + '] : ', widgetData[prop]);
+                    }
+                }
+                
                 /**
                  * Inform the widget that is is loaded and execute the main JavaScript function
                  * If the widget name is 'createsite', then the function sakai.createsite will be executed.
@@ -287,6 +300,7 @@ define(
                  * @param {String} URLIdentifier The part that identifies the URL (href/src)
                  */
                 var locateTagAndRemove = function(content, tagName, URLIdentifier) {
+                    console.log('Sakai Widgets :: locateTagAndRemove - <', tagName, '>');
                     var returnObject = {
                         URL : [],
                         content : content
@@ -302,7 +316,7 @@ define(
                 };
 
                 var sethtmlover = function(content,widgets,widgetname) {
-
+                    console.log('Sakai Widgets :: sethtmlover - ', widgetname);
                     var CSSTags = locateTagAndRemove(content, 'link', 'href');
                     content = CSSTags.content;
                     var stylesheets = [];
@@ -535,6 +549,7 @@ define(
                     // Object that will contain all the URLs + names of the widgets that need to be fetched with batch get
                     var batchWidgets = {};
 
+                    console.log('Length of $(".widget_inline"): ', divarray.length);
                     // Run over all the elements and load them
                     for (var i = 0, j = divarray.length; i < j; i++) {
                         var id = divarray[i].id;
@@ -607,7 +622,14 @@ define(
                     loadWidgetFiles(widgetsInternal, batchWidgets);
 
                 };
-
+    
+                console.log('   Calling locateWidgets with the following parameters: ');
+                console.log('   id: ', id);
+                console.log('   showSettings: ', showSettings);
+                console.log('   widgetData: ', widgetData);
+                console.log('   context: ', context);
+                console.log('   callback: ', callback);
+                
                 locateWidgets(id, showSettings, widgetData, context, callback);
 
                 return {
